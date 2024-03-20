@@ -1,32 +1,23 @@
 html {
   height: 100%;
   width: 100%;
+
 }
 
 body {
-  background-color:#F7F9F9
-  font-family: "times new roman", sans-serif";
-  background-image: url('');
-  /* Customize the font, size, and color for text*/
+  background-color:#1C7293;
+    font-family: "Cantarell", sans-serif;
   font-size: 16px;
-  color: black;
+  color: #F2EFEA;
   display: inline-block;
   text-align: center;
-  /* Adjust the padding and margins */
-  padding-top: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  
+  margin-inline: auto;
+  padding-left: 10em;
+  padding-right: 10em;
 }
 
-.top {
-  padding-top: 50px;
+.header {
+  padding-top: 25px;
   margin-bottom: 80px;
   text-align: center;
   padding-bottom: 50px;
@@ -35,24 +26,25 @@ body {
 #header-img {
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
-  max-width: 50%;
+  width: 80%;
+  max-width: 100%;
 }
 
 #header-left {
-
+  width: 50%;
+  margin-left: auto;
 }
 
 #header-right {
-  
+  width: 50%;
+  margin-left: auto;
 }
 
 #header-button {
-
 }
 
 h1 {
-  color: #1C7293;
+  color: #white;
 }
 
 .fontStyle {
@@ -65,21 +57,30 @@ p {
   margin-right: 200px;
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: start;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
 a:link{
   text-decoration: none;
+  color: white;
 }
 
 a:visited{
-  color: purple;
+  text-decoration: none;
+  color: white;
 }
 
 a:hover{
-  color: blue;
+  text-decoration: none;
+  color: green;
 }
 
 a:active{
+  text-decoration: none;
   color: yellow;
 }
 
