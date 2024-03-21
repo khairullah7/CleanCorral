@@ -13,68 +13,83 @@
 
 <body>
   <script src="script.js"></script>
-
-  <div class="header">
-    <div id="header-img">
-      <img src="abstract-round-illustration-summer-time-concept_654476-133 (1).jpeg" alt="logo image" width="180px"
-        height="100px">
-    </div>
-    <div id="header-left">
-      <h1>SimpleOcean</h1>
-    </div>
-    <div id="header-right">
-      <h2>Giving Awareness to the Ocean's Beauty</h2>
-      <div id="header-button">
-        <button>Learn More</button>
-        <button>Get Involved</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- <h3 class="fontStyle">Where the tide of knowledge meets the waves of change</h3> -->
-
-  <!--- About Section--->
-  <h2>About SimpleOcean</h2>
-  <iframe width="450" height="250" src="https://www.youtube.com/embed/eT92KQSFeP4?si=6aeEkJHUVKH5MyZG"
-    title="YouTube video player" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen></iframe>
-  <p>SimpleOcean is an enviromental website that provides information about the current state of ocean and the
-    environmental harms that it currently faces. The main purpose of the website is to be a fun, but also an
-    informative guide on damaged ocean-realted topics such as corals, beaches, and ocean ecosystems. It will contain
-    information on how to help the ocean and the environment, as well as tips on how to be more sustainable. </p>
-
-  <h3 class="fontStyle">Impacts of Climate Change on the Ocean</h3>
-  <img src="img/beach.jpg" alt="Picture of a beach" width="300px" height="250px" />
-  <p>In today's world, the ocean has experienced sudden changes to its enviroment and can be mostly notably seen in
-    its beaches, corals, and ecosystems.</p>
-
-  <h3 class="fontStyle">Major Factors of Ocean Pollution</h4>
-    <img src="img/bottle.jpg" alt="Picture of a bottle pollution" width="250px" height="250px" />
-    <p>One of the most common causes of ocean pollution is plastic. Plastic is a common material that is used in
-      many products around the globe.</p>
-
-    <h3 class="fontStyle">Additional Resources</h4>
+  <section class="background-container">
+    <div class="navbar">
       <ul>
-        <li><a href="https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-pollution">Guide to
-            Ocean Pollution and Marine Debris</a></li>
-
-        <li><a href="https://education.nationalgeographic.org/resource/coral-reefs/">Information on Coral Reefs</a>
-        </li>
+        <h1 class="logo">SimpleOcean</h1>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#area">Areas</a></li>
+        <!-- Stretch Challenge: Drop Down -->
       </ul>
+    </div>
 
-      <div class="footer">
-        <div class="footer-links">
-          <a href="">Learn More</a>
+    <div class="header-container">
+      <div class="header-item">
+        <div id="header-img">
+          <!-- <img src="trash (1).png" alt="logo image" width="200px"
+          height="200px">
+      </div> -->
         </div>
-        <div class="footer-links">
-          <a href="">Email Us!</a>
-        </div>
-        <div>
-          <p class="footer-links">Website Made by Muhammad Khairullah</p>
+        <div class="header-item">
+          <h1>SimpleOcean</h1>
+          <h2>Giving Awareness to the Ocean's Beauty</h2>
+          <div>
+            <button class="header-button">Learn More</button>
+            <button class="header-button">Get Involved</button>
+          </div>
         </div>
       </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section"> 
+  <div id="about">
+  <h2>About SimpleOcean</h2>
+    <iframe width="450" height="250"
+      src="https://www.youtube.com/embed/eT92KQSFeP4?si=6aeEkJHUVKH5MyZG" title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <p>SimpleOcean is an enviromental website that provides information about the current state of ocean and the environmental harms that it currently faces. The main purpose of the website is to be a fun, but also an
+      informative guide on damaged ocean-realted topics such as corals, beaches, and ocean ecosystems. It will
+      contain
+      information on how to help the ocean and the environment, as well as tips on how to be more sustainable. </p>
+  </div>
+  </section>
+  
+  <!--- Area Section--->
+  <section class="area-section">
+    <div id="area">
+      <div class="area-columns">
+        <h3 class="fontStyle">Impacts of Climate Change on the Ocean</h3>
+        <img class="img-round" src="img/beach.jpg" alt="Picture of a beach" width="300px" height="250px" />
+        <p>In today's world, the ocean has experienced sudden changes to its enviroment and can be mostly notably seen in its beaches, corals, and ecosystems.</p>
+      </div>
+      <div class="area-columns">
+        <h3 class="fontStyle">Major Factors of Ocean Pollution</h3>
+          <img class="img-round" src="img/bottle.jpg" alt="Picture of a bottle pollution" width="250px"
+            height="250px" />
+          <p>One of the most common causes of ocean pollution is plastic. Plastic is a common material that is used in many products around the globe.</p>
+      </div>
+      <div class="area-columns">
+        <h3 class="fontStyle">Places Most Affected</h3>
+      </div>
+    </div>
+</section>
+
+    <div class="footer">
+      <div class="footer-links">
+        <a href="">Learn More</a>
+      </div>
+      <div class="footer-links">
+        <a href="">Email Us!</a>
+      </div>
+      <div>
+        <p class="footer-links">Website Made by Muhammad Khairullah</p>
+      </div>
+    </div>
 </body>
+
 
 
 </html>
