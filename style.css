@@ -1,8 +1,3 @@
-html {
-  height: 100%;
-  width: 100%;
-}
-
 .navbar {
   display: flex;
   justify-content: right;
@@ -43,26 +38,22 @@ html {
 
 .navbar ul li a:hover {
   font-weight: bolder;
-  color: #247B7B;
+  color: #F8BD7F;
 }
 
 body {
-  background-color: white;
+  background-color: #FFFFFA;
   font-family: "Cantarell", sans-serif;
   font-size: 16px;
   color: #247B7B;
-  display: inline-block;
   text-align: center;
-  margin-inline: auto;
 }
 
 .background-container {
-  /* background-image: url('ocean.jpg'); */
-  background-color: #247B7B;
-  padding-bottom: 20px;
+  background-image: url('ocean.jpg');
   background-position: center;
   background-size: cover;
-  height: 650px;
+  padding-bottom: 10%;
 }
 
 .header-container {
@@ -75,23 +66,25 @@ body {
   align-items: start;
 }
 
-#header-img {
+/* #header-img {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
   max-width: 100%;
-}
+} */
 
 .header-item:nth-of-type(1) {
   width: 50%;
   margin-left: auto;
-  color:#FFFFFA;
+  font-size: 20px;
+  color: #00798C
 }
 
 .header-item:nth-of-type(2) {
   width: 50%;
   margin-right: auto;
   color: #FFFFFA;
+  font-size: 18px;
 }
 
 .header-button {
@@ -107,25 +100,19 @@ body {
 .about-section {
   background-color: white;
   color: #00798C;
-  margin-top: 80px;
-  margin-bottom: 80px;
-  height: 400px;
-}
-
-.area-section {
-  background-color: #FFFFFA;
-  color: #00798C;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .columns {
   display: flex;
 }
-#area {
+.area {
+  background-color: white;
+  color: #00798C;
   display: flex;
   justify-content: space-between; 
-  height: 300px; 
+  height: 500px; 
   flex-wrap: wrap;
 }
 
@@ -136,12 +123,14 @@ body {
   margin: 0 10px; 
 }
 
-.area-columns > p {
+.area-p {
   display: flex;
+  margin: auto;
+  
 }
 
 h1 {
-  color: #white;
+  color: white;
 }
 
 .fontStyle {
@@ -153,7 +142,7 @@ p {
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   text-align: start;
 }
 
@@ -184,15 +173,15 @@ a:active {
 
 .img-round {
   border-radius: 50%;
-  height: 250px;
-  width: 250px;
-  padding: 40px;
+  height: 200px;
+  width: 200px;
+  padding: 30px;
 }
 
 .header-button:hover {
   background-color: transparent;
   color: #00798C;
-  border: 2px solid #00798C;
+  border: 2px solid white;
 }
 
 .footer {
@@ -203,8 +192,9 @@ a:active {
   text-align: center;
   background-color: rgb(68, 161, 160, 0.8);
   color: white;
-  padding: 5px;
-  height: 60px;
+  padding: 20px;
+  height: 45px;
+  margin-top: auto;
 }
 
 .footer-links {
