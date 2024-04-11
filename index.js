@@ -27,5 +27,31 @@ const addSignature = () => {
   signatureSection.appendChild(signature);
 }
 
-// Add a click event listener to the sign now button here
-signNowButton.addEventListener('click', addSignature);
+
+const validateForm = () => {
+
+  let containsErrors = false;
+
+  var petitionInputs = document.getElementById("sign-petition").elements;
+
+  for (let i = 0; i < petitionInputs.length; i++) {
+    if (petitionInputs[i].value.length < 2) {
+      containsErrors = true;
+      petitionInputs[i].classList.add('error');
+    } else {
+      petitionInputs[i].classList.remove('error');
+    }
+  }
+
+
+
+  if (containsErrors == false) {
+    addSignature();
+    for (let j = 0; j < petitionInputs.length; j++) {
+      petitionInputs[i].value = "";
+      containsErrors = false;
+    }
+  }
+}
+
+signNowButton.addEventListener('click', validateForm);
