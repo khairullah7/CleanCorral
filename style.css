@@ -15,7 +15,7 @@
   list-style: none;
   overflow: hidden;
   position: static;
-  top: 0; 
+  top: 0;
   padding-right: 0;
 }
 
@@ -66,13 +66,6 @@ body {
   align-items: start;
 }
 
-/* #header-img {
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  max-width: 100%;
-} */
-
 .header-item:nth-of-type(1) {
   width: 50%;
   margin-left: auto;
@@ -98,7 +91,7 @@ body {
 }
 
 .about-section {
-  background-color: white;
+  /* background-color: white; */
   color: #00798C;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -107,26 +100,27 @@ body {
 .columns {
   display: flex;
 }
+
 .area {
-  background-color: white;
+  /* background-color: white; */
   color: #00798C;
   display: flex;
-  justify-content: space-between; 
-  height: 500px; 
+  justify-content: space-between;
+  height: 500px;
   flex-wrap: wrap;
 }
 
 .area-columns {
   background-color: #F0F8EA;
-  flex: 1; 
-  max-width: 30%; 
-  margin: 0 10px; 
+  flex: 1;
+  max-width: 30%;
+  margin: 0 10px;
 }
 
 .area-p {
   display: flex;
   margin: auto;
-  
+
 }
 
 h1 {
@@ -205,5 +199,22 @@ a:active {
 
 #area-link {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
+}
+
+/* Add style to button */
+#theme-button {
+  background-color: #FFFFFA;
+  color: #00798C;
+  border: 2px solid #00798C;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+/* Customize Dark Mode Theme */
+.dark-mode {
+  background-color: black;
+  color: white;
 }
