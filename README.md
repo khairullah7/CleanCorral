@@ -1,6 +1,16 @@
-Welcome to the SimpleOcean Website
+Welcome to the SimpleOcean Website!
+Author: Mo Khairullah
 
 This website focuses on bringing awareness to enviromental damages done to coral reefs, beaches, and the ocean in a fun and informative way.
 As of now, the website will be using HTML, CSS, and JavaScript.
 
-![image](https://github.com/khairullah7/SimpleOcean-Website/assets/129241013/32066124-f02f-468a-8e4d-06ab238690e3)
+Front Page:
+![image](https://github.com/khairullah7/SimpleOcean-Website/assets/129241013/e880a09e-e863-4e0a-aec7-80470541a37d)
+
+About Section:
+![image](https://github.com/khairullah7/SimpleOcean-Website/assets/129241013/eea54de0-e172-480c-8214-41693e6db808)
+
+
+Petition Section:
+![image](https://github.com/khairullah7/SimpleOcean-Website/assets/129241013/a9c185ed-31e9-477c-b20e-9add521400e4)
+
