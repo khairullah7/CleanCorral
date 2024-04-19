@@ -91,7 +91,6 @@ body {
 }
 
 .about-section {
-  /* background-color: white; */
   color: #00798C;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -122,7 +121,6 @@ body {
 .area-p {
   display: flex;
   margin: auto;
-
 }
 
 h1 {
@@ -181,25 +179,6 @@ a:active {
   border: 2px solid white;
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  background-color: rgb(68, 161, 160, 0.8);
-  color: white;
-  padding: 20px;
-  height: 45px;
-  margin-top: auto;
-}
-
-.footer-links {
-  color: white;
-  display: inline-block;
-  padding-top: 5px;
-}
-
 #area-link {
   display: flex;
   justify-content: space-evenly;
@@ -245,7 +224,7 @@ a:active {
   color: #00798C;
   border: 1px solid #00798C;
   padding: 10px;
-  font-size: 16px;
+  font-size: 13px;
   cursor: pointer;
 }
 
@@ -266,4 +245,47 @@ input {
   border-width: 2px;
   border-color: red;
   background: pink;
+}
+
+.styleTitle,
+#one {
+  color: #0091AD;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 50px;
+}
+
+.areasContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.areasContainer>div {
+  height: 400px;
+  padding: 10px;
+}
+
+#one {
+  color: #0091AD;
+  background-color: #e8f2f2;
+}
+
+#two,
+#three,
+#four {
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+
+#two {
+  background-image: url("img/bali.jpg");
+}
+
+#three {
+  background-image: url("img/fijiIsland.jpg");
+}
+
+#four {
+  background-image: url("img/maldives.jpg");
 }
