@@ -1,35 +1,31 @@
-// TODO: Query for button with an id "theme-button"
 let themeButton = document.getElementById("theme-button");
 
-// TODO: Complete the toggleDarkMode function
 const toggleDarkMode = () => {
-
-  // Write your code to manipulate the DOM here
   document.body.classList.toggle("dark-mode");
-
 }
 
-// TODO: Register a 'click' event listener for the theme button
 // Set toggleDarkMode as the callback function.
 themeButton.addEventListener("click", toggleDarkMode);
 
 // Add your query for the sign now button here
 let signNowButton = document.getElementById("sign-now-button");
 
-const addSignature = () => {
-  // Write your code to manipulate the DOM here
-  let nameA = document.getElementById("name").value;
-  let cityA = document.getElementById("city").value;
-
+const addSignature = (person) => {
   let signature = document.createElement("p");
-  signature.textContent = "🖊️ " + nameA + " from " + cityA + " supports this.";
+  signature.textContent = `🖊️  ${person.name}  from  ${person.city} supports this`;
 
   let signatureSection = document.querySelector(".signatures");
   signatureSection.appendChild(signature);
+
+  toggleModal(person);
 }
 
 
 const validateForm = () => {
+  const person = {
+    name: document.getElementById("name").value,
+    city: document.getElementById("city").value,
+  };
 
   let containsErrors = false;
 
@@ -44,15 +40,25 @@ const validateForm = () => {
     }
   }
 
-
-
   if (containsErrors == false) {
-    addSignature();
+    addSignature(person);
     for (let j = 0; j < petitionInputs.length; j++) {
-      petitionInputs[i].value = "";
+      petitionInputs[j].value = "";
       containsErrors = false;
     }
   }
+}
+
+function toggleModal(person) {
+  let modal = document.getElementById("thanks-modal")
+  let modalContent = document.getElementById("thanks-modal-content");
+  modal.style.display = "flex";
+  modalContent.textContent = `Thank you so much ${person.name} from ${person.city}`;
+ 
+  setTimeout(() => {
+    let modalSet = document.getElementById("thanks-modal");
+    modalSet.style.display = "none";
+  }, "2000");
 }
 
 signNowButton.addEventListener('click', validateForm);
