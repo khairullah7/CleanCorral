@@ -4,18 +4,19 @@ Author: Mo Khairullah
 
 Tech Stacks: HTML, CSS, Javascript
 
-This website focuses on bringing awareness to enviromental damages done to coral reefs, beaches, and the ocean in a fun and informative way.
+This modern website focuses on bringing awareness to enviromental damages done to coral reefs, beaches, and the ocean in a fun and informative way.
 
 Video-Walkthrough: 
 https://drive.google.com/file/d/1Hvim7ckNBl8hiuNDPzqDRargw7J2n1Zf/view?usp=sharing
 
 Front Page:
-![image](https://github.com/khairullah7/SimpleOcean-Website/assets/129241013/e880a09e-e863-4e0a-aec7-80470541a37d)
-
-About Section:
-![image](https://github.com/khairullah7/SimpleOcean-Website/assets/129241013/eea54de0-e172-480c-8214-41693e6db808)
+![image](https://github.com/khairullah7/SimpleOcean-Website/assets/129241013/471ea529-e470-4b4d-9c2d-3fea9f7c1c99)
 
 
-Petition Section:
-![image](https://github.com/khairullah7/SimpleOcean-Website/assets/129241013/a9c185ed-31e9-477c-b20e-9add521400e4)
+About/Petition Section:
+![image](https://github.com/khairullah7/SimpleOcean-Website/assets/129241013/03074970-31a9-43ff-bfc8-095fb9810a9f)
+
+Gallery:
+![image](https://github.com/khairullah7/SimpleOcean-Website/assets/129241013/6b64a8c9-0e4f-4318-9d6b-061ff0d12624)
+
 
