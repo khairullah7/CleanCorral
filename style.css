@@ -47,6 +47,7 @@ body {
   font-size: 16px;
   color: #247B7B;
   text-align: center;
+  font-weight: bold;
 }
 
 .background-container {
@@ -288,4 +289,16 @@ input {
 
 #four {
   background-image: url("img/maldives.jpg");
+}
+
+.revealable.active {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.revealable {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
 }
