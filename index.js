@@ -54,11 +54,26 @@ function toggleModal(person) {
   let modalContent = document.getElementById("thanks-modal-content");
   modal.style.display = "flex";
   modalContent.textContent = `Thank you so much ${person.name} from ${person.city}`;
- 
+
+  let intervalId = setInterval(scaleImage, 500);
+
   setTimeout(() => {
     let modalSet = document.getElementById("thanks-modal");
     modalSet.style.display = "none";
+    clearInterval(intervalId);
   }, "2000");
+}
+
+let scaleFactor = 1;
+let modalImage = document.getElementById("modal-image");
+
+function scaleImage() {
+  if (scaleFactor === 1) {
+    scaleFactor = 0.8;
+  } else {
+    scaleFactor = 1;
+  }
+  modalImage.style.transform = `scale(${scaleFactor})`;
 }
 
 signNowButton.addEventListener('click', validateForm);
