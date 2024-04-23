@@ -6,6 +6,8 @@ Tech Stacks: HTML, CSS, Javascript
 
 This website focuses on bringing awareness to enviromental damages done to coral reefs, beaches, and the ocean in a fun and informative way.
 
+Video-Walkthrough: 
+https://drive.google.com/file/d/1Hvim7ckNBl8hiuNDPzqDRargw7J2n1Zf/view?usp=sharing
 
 Front Page:
 ![image](https://github.com/khairullah7/SimpleOcean-Website/assets/129241013/e880a09e-e863-4e0a-aec7-80470541a37d)
